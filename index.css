@@ -1,0 +1,39 @@
+html {
+  background: url(http://www.planwallpaper.com/static/images/black_hd_wallpaper_black_hd_wallpaper.jpg) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+	height: 100vh;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.key {
+	height: 80px;
+    background-color: #272822;
+    width: 80px;
+    border: solid #228b8e;
+    border-radius: 3px;
+    margin: 20px;
+    display: inline-flex;
+	align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+
+    transition: width 0.4s, height 0.4s, font-size 0.4s;
+}
+
+.key:hover{
+	width: 120px;
+	height: 120px;
+    font-size: 1.5em; 
+  	box-shadow: 0 0 10px #F8E55A;
+}
